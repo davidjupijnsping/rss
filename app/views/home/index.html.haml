@@ -1,1 +1,13 @@
-%h1 Hallo
+.row
+  .col-md-12
+    %h1.hoi Hallo
+
+.row
+  .col-md-6
+    %ul
+      - @companies.each do |c|
+        %li=c.users.map(&:name)
+
+  .col-md-6
+    hoi
+

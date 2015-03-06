@@ -21,8 +21,10 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'mysql2'
 gem 'haml-rails'
-# gem 'bower-rails'
+gem 'bower-rails'
 # gem 'airbrake'
+
+gem 'bootstrap-sass', '~> 3.3.3'
 
 group :development, :test do
   gem 'pry-rails'

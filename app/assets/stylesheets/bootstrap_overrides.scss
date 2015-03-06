@@ -1,0 +1,19 @@
+$font-family-sans-serif: 'Verdana';
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+body {
+  .container-fluid {
+    h1 {
+      color: red;
+
+      &:hover {
+        color: black;
+      }
+      &.hoi {
+        color: green;
+      }
+    }
+  }
+}
