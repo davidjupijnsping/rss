@@ -1,0 +1,6 @@
+AllCops:
+  Exclude:
+    - db/schema.rb
+    - db/seeds.rb
+    - config/routes.rb
+    - Gemfile
