@@ -13,6 +13,10 @@ body {
       }
       &.hoi {
         color: green;
+
+        &:hover {
+        color: blue;
+      }
       }
     }
   }
